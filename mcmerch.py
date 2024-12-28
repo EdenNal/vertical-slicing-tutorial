@@ -9,7 +9,7 @@ try:
     # Read price from command line arguments
     price = float(sys.argv[1])
 except ValueError:
-    print("Please provide a valid number for the price.")
+    print("Please provide a valid number for the price!")
     sys.exit(1)
 
 # Ontario tax rate
