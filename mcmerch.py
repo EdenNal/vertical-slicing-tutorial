@@ -2,7 +2,7 @@ import argparse
 def main():
    # configure first cli arg to be the price of the item
    parser = argparse.ArgumentParser()
-   parser.add_argument("price", type=float, help="The price of the item")
+   parser.add_argument("price", type=float, help="The price of the item!")
    args = parser.parse_args()
    price = args.price
 
